@@ -1,0 +1,113 @@
+.suggest_title {
+	width: 100%;
+	padding: 25px 20px;
+	margin: 0px;
+	border-top: solid 3px #e64345;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13px;
+}
+.suggest_subtitle {
+	width: 100%;
+	padding: 15px 20px;
+	border-top: solid 2px #ccc;
+	border-bottom: solid 2px #ccc;
+}
+
+.u_appcontainer {
+    text-align: center;
+}
+.u_appcontainer a {
+    display: block;
+}
+.u_appcontainer .u_appimg {
+    width: 100%;
+}
+.u_appcontainer .u_apptitle {
+    display: block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 0 5px;
+}
+
+.u_universal_network_applist {
+  /* We first create a flex layout context */
+  display: flex;
+  background-color: #fafafa;
+  /* Then we define the flow direction and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+}
+
+.flex-parent {
+  display: flex;
+  height: 300px; /* Or whatever */
+}
+
+.flex-child 
+{
+  width: 75px;  /* Or whatever */
+  padding: 0 10px;
+  margin: auto;  /* Magic! */
+}
+
+ @media (max-width: 400px) and (orientation: portrait) { 
+    .sb-close {
+        text-align: center;
+        position:absolute;
+        right:1px;
+        display:block;
+        border:2px solid #fff;
+        width:1.300em;
+        height:1.300em;
+        font-family:'ArialRoundedMTBold',Arial;
+        font-size:0.799em;
+        line-height:0.941em;
+        text-align:center;
+        color:#fff;
+        background:#070707;
+        text-decoration:none;
+        text-shadow:none;
+        border-radius:0.875em;
+        box-shadow:0 2px 3px rgba(0,0,0,0.4); -webkit-font-smoothing:subpixel-antialiased;
+    }
+ }
+ 
+ @media   (orientation: landscape) { 
+    .sb-close {
+        text-align: center;
+        position:absolute;
+        right:5px;
+        display:block;
+        border:2px solid #fff;
+        width:1.350em;
+        height:1.350em;
+        font-family:'ArialRoundedMTBold',Arial;
+        font-size:0.813em;
+        line-height:0.938em;
+        text-align:center;
+        color:#fff;
+        background:#070707;
+        text-decoration:none;
+        text-shadow:none;
+        border-radius:0.875em;
+        box-shadow:0 2px 3px rgba(0,0,0,0.4); -webkit-font-smoothing:subpixel-antialiased;
+    }
+ }
+ 
+ #UniversalBanner {
+	 position: fixed; left: 0;   width: 100%; z-index: 100;background: #ffffff url('../img/dark_background_stripes.png');
+ }
+ 
+  
+ 
+ 
+ 
